@@ -3,28 +3,20 @@
 
 # Your 10 repositories to monitor (format: "owner/repo")
 REPOSITORIES = [
-    "vitessio/vitess",
-"meshery/meshery.io",
-"layer5io/docs",
-"thanos-io/thanos",
-"goharbor/harbor",
-"open-telemetry/opentelemetry-collector",
-"envoyproxy/gateway",
-"kubernetes/website",
-"vitessio/website",
-"jaegertracing/documentation",
-"kubernetes/community",
-"fluxcd/website",
-"istio/istio.io",
-"cncf/mentoring",
-"goharbor/website",
-"meshery/docs",
-"cloudnative-pg/cloudnative-pg.github.io",
-"thanos-io/website",
-"open-telemetry/opentelemetry.io",
-"open-telemetry/opentelemetry-operator",
-"kedacore/keda-docs",
-"kubernetes/sig-docs",
+    "prometheus/prometheus",
+    "prometheus/client_golang",
+    "open-telemetry/opentelemetry-collector-contrib",
+    "prometheus/docs",
+    "envoyproxy/gateway",
+    "envoyproxy/envoy",
+    "jaegertracing/jaeger",
+    "jaegertracing/jaeger-operator",
+    "jaegertracing/helm-charts",
+    "jaegertracing/documentation",
+    "jaegertracing/jaeger-ui",
+    "cilium/cilium.io",
+    "cilium/cilium",
+    "cilium/hubble-ui"
 ]
 
 # Check interval in seconds (60-240 seconds = 1-4 minutes)

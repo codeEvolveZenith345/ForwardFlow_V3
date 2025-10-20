@@ -30,28 +30,20 @@ try:
 except ImportError:
     # Fallback configuration if config.py doesn't exist
     REPOSITORIES = [
-"vitessio/vitess",
-"meshery/meshery.io",
-"layer5io/docs",
-"thanos-io/thanos",
-"goharbor/harbor",
-"open-telemetry/opentelemetry-collector",
-"envoyproxy/gateway",
-"kubernetes/website",
-"vitessio/website",
-"jaegertracing/documentation",
-"kubernetes/community",
-"fluxcd/website",
-"istio/istio.io",
-"cncf/mentoring",
-"prometheus/prometheus",
-"goharbor/website",
-"meshery/docs",
-"cloudnative-pg/cloudnative-pg.github.io",
-"thanos-io/website",
-"open-telemetry/opentelemetry.io",
-"kedacore/keda-docs",
-"kubernetes/sig-docs",
+        "prometheus/prometheus",
+        "prometheus/client_golang",
+        "open-telemetry/opentelemetry-collector-contrib",
+        "prometheus/docs",
+        "envoyproxy/gateway",
+        "envoyproxy/envoy",
+        "jaegertracing/jaeger",
+        "jaegertracing/jaeger-operator",
+        "jaegertracing/helm-charts",
+        "jaegertracing/documentation",
+        "jaegertracing/jaeger-ui",
+        "cilium/cilium.io",
+        "cilium/cilium",
+        "cilium/hubble-ui"
     ]
     DEFAULT_CHECK_INTERVAL = 180
     DATABASE_PATH = "cncf_issues.db"
